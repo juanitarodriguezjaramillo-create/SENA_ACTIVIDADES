@@ -1,0 +1,16 @@
+<script>
+//2,3,4,10
+function promedio(numeros){
+  let suma = 0
+  for (let i = 0; i < numeros.length; i++) {
+      suma = suma + numeros[i]
+      console.log("Iteracion ",i , "Valor Suma ",suma)  
+  }
+  return suma/numeros.length
+}
+
+console.log(promedio([2,3,4,10]))
+console.log(promedio([12,13,15,20]))
+
+
+</script>
