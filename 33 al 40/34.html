@@ -1,0 +1,15 @@
+<script>
+    function miNumero () {
+        let miNumero = 77;
+        return function () {
+        miNumero++;
+        return miNumero;
+    };
+}
+
+const nuevonumero = miNumero();
+
+console.log(nuevonumero());
+console.log(nuevonumero());
+console.log(nuevonumero());
+</script>
